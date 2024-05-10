@@ -1,0 +1,18 @@
+# global_tokens.settings_form:
+#   title: 'Global Tokens'
+#   description: 'Configure site wide save rate data tokens.'
+#   parent: system.admin_config_system
+#   route_name: global_tokens.settings_form
+#   weight: 10
+
+entity.global_token.settings:
+  title: 'Global Token'
+  description: 'Configure a Global Token entity type.'
+  route_name:  entity.global_token.settings
+  parent: system.admin_structure
+
+entity.global_token.collection:
+  title: 'Global Tokens'
+  description: 'List of global tokens.'
+  route_name: entity.global_token.collection
+  parent: system.admin_content

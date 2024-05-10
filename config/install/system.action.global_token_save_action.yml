@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - global_tokens
+id: global_token_save_action
+label: 'Save global tokens'
+type: global_token
+plugin: entity:save_action:global_token
+configuration: {  }

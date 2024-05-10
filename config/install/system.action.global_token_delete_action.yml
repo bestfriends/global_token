@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - global_tokens
+id: global_token_delete_action
+label: 'Delete global tokens'
+type: global_token
+plugin: entity:delete_action:global_token
+configuration: {  }

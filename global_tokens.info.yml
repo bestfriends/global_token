@@ -1,0 +1,7 @@
+name: 'Global Tokens'
+type: module
+description: 'Global tokens that can be used to show updated save rate data throughout the site.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - token:token

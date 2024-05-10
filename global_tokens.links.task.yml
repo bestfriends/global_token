@@ -1,0 +1,9 @@
+entity.global_token.settings:
+  title: 'Settings'
+  route_name: entity.global_token.settings
+  base_route: entity.global_token.settings
+entity.global_token.collection:
+  title: 'Global Tokens'
+  route_name: entity.global_token.collection
+  base_route: system.admin_content
+  weight: 10

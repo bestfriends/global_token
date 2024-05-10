@@ -1,0 +1,5 @@
+global_token.add_form:
+  title: 'Add global token'
+  route_name: entity.global_token.add_form
+  appears_on:
+    - entity.global_token.collection

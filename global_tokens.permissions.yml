@@ -1,0 +1,3 @@
+administer global_token:
+  title: 'Administer global tokens'
+  restrict access: true

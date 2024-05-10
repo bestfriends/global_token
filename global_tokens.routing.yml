@@ -1,0 +1,7 @@
+entity.global_token.settings:
+  path: 'admin/structure/global-token'
+  defaults:
+    _form: '\Drupal\global_tokens\Form\GlobalTokenSettingsForm'
+    _title: 'Global Token'
+  requirements:
+    _permission: 'administer global_token'
